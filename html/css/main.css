@@ -1,0 +1,243 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#main {
+    width: 1284px;
+}
+
+.title {
+    width: 100%;
+    padding: 16px 0px;
+    box-sizing: border-box;
+    border-bottom: 2px dashed #cccc;
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.title-1 {
+    font-size: 36px;
+}
+
+
+.twi-part {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.img-div {
+    position: relative;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.twi-part >img {
+    width: calc(100% - 8px);
+    height: auto;
+    border: 2px solid #cccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.twi-cn {
+    width: 100%;
+    font-size: 42px;
+    padding: 24px 36px;
+    box-sizing: border-box;
+}
+
+.twi-blue {
+    color: rgb(29, 155, 240);
+}
+
+.twi-title {
+    font-weight: bolder;
+}
+
+.twi-cn >p {
+    width: 100%;
+    line-height: 58px;
+}
+
+.twi-cn >p:first-of-type {
+    margin-top: 8px;
+}
+
+.btn-part {
+    padding: 32px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download {
+    padding: 16px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #0081a8;
+    border: 1px solid #0081a8;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.download:hover {
+    color: #FFF;
+    background-color: #0081a8;
+}
+
+.img-div {
+    width: calc(100% - 8px);
+}
+
+.img-div > img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #cccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.img-alt {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #FFF;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 8px;
+    line-height: 1.5;
+}
+
+.title-2 {
+    font-size: 32px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #333333;
+    box-sizing: border-box;
+}
+
+.pink-block {
+    background-color: #FFD2E6;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 42px;
+    height: 42px;
+    display: block;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+
+.green-block {
+    background-color: #07C160;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 42px;
+    height: 42px;
+    display: block;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.link-img {
+    width: 250px;
+    height: auto;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link-item-title {
+    margin-bottom: 16px;
+}
+
+.link-part {
+    display: flex;
+    justify-content: space-around;
+    margin: 16px 0px;
+}
+
+.title-3 {
+    margin: 16px 0px;
+}
+
+.br-line {
+    margin: 16px 0px;
+    width: 100%;
+    height: 5px;
+    background-color: #333333;
+}
